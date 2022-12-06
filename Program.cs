@@ -1,6 +1,6 @@
 ﻿// Задайте двумерный массив. Напишите программу, которая упорядочит по убыванию элементы каждой строки двумерного массива.
 /*
-Console.WriteLine($"Enter array size m x n and range of random values:");
+Console.WriteLine("Enter array size m x n and range of random values:");
 int m = InputNumbers("Input m: ");
 int n = InputNumbers("Input n: ");
 int range = InputNumbers("Input range: from 1 to ");
@@ -67,7 +67,7 @@ void WriteArray(int[,] array)
 
 // Задайте прямоугольный двумерный массив. Напишите программу, которая будет находить строку с наименьшей суммой элементов.
 
-Console.WriteLine($"Enter array size m x n and range of random values:");
+Console.WriteLine("Enter array size m x n and range of random values:");
 int m = InputNumbers("Input m: ");
 int n = InputNumbers("Input n: ");
 int range = InputNumbers("Input range: from 1 to  ");
@@ -134,7 +134,7 @@ void WriteArray (int[,] array)
 
 //Задайте две матрицы. Напишите программу, которая будет находить произведение двух матриц.
 
-Console.WriteLine($"\nВведите размеры матриц и диапазон случайных значений:");
+Console.WriteLine("Введите размеры матриц и диапазон случайных значений: ");
 int m = InputNumbers("Input number of rows first matrix: ");
 int n = InputNumbers("Input number of columns first matrix (and rows second): ");
 int p = InputNumbers("Input number of columns second matrix: ");
